@@ -21,6 +21,10 @@ stages
     stage ('stage-parallel-2') 
      { steps  { sh 'echo stage-parallel-2' }
      } 
+    
+    stage ('stage-parallel-3') 
+     { steps  { sh 'echo stage-parallel-3' }
+     } 
    }
    }
 
